@@ -1,0 +1,44 @@
+#pic-position,
+#pic-transform {
+  background-color: #e11a27;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.position {
+  position: absolute;
+  background-color: white;
+  display: block;
+  border-radius: 5px;
+}
+
+#vertical-position {
+  margin-top: 23px;
+  height: 55px;
+  width: 20px;
+  margin-left: 40px;
+}
+
+#horizontal-position {
+  width: 55px;
+  height: 20px;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.transform {
+  border-radius: 5px;
+  background-color: white;
+  height: 55px;
+  width: 20px;
+}
+
+#vertical-transform {
+  transform: translate(200%, 45%);
+}
+
+#horizontal-transform {
+  transform: translate(200%, -55%) rotate(90deg);
+}
