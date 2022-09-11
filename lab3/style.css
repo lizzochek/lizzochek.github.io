@@ -1,0 +1,60 @@
+body {
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#float-container {
+  width: 100%;
+  float: left;
+}
+
+#float-img-1 {
+  width: 50%;
+  float: left;
+  margin: 1rem;
+}
+
+#float-text-1 {
+  width: 45%;
+  float: right;
+}
+
+#float-text-1,
+#flex-text-1 {
+  padding: 5px;
+  background: blue;
+  color: white;
+}
+
+#float-img-2 {
+  width: 100%;
+}
+
+#float-text-2,
+#flex-text-2 {
+  width: 100%;
+  color: red;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#flex-text-1 {
+  width: 45%;
+}
+
+#flex-img-1 {
+  width: 50%;
+  margin: 1rem;
+}
+
+#flex-img-2 {
+  width: 100%;
+}
