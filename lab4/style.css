@@ -1,0 +1,29 @@
+button {
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 44px;
+  margin: 1rem;
+  padding: 0 25px;
+  text-align: center;
+  text-transform: none;
+  width: 20%;
+}
+
+#el-3:hover,
+#el-4:hover {
+    cursor: pointer;
+}
+
+#el-3 {
+    color: red;
+    background-color: aquamarine;
+}
+
+#el-4 {
+    color: blue;
+    background-color: yellow;
+}
