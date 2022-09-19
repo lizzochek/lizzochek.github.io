@@ -1,0 +1,169 @@
+html,
+body {
+  min-height: 100%;
+}
+
+/* Task 1 */
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 0 0 0 8px;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+form {
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: rgba(230, 200, 200, 0.945);
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input {
+  padding: 5px;
+  margin-top: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #eee;
+  justify-content: center;
+  color: rgba(230, 200, 200, 0.945);
+}
+
+#top {
+  margin-top: 0;
+}
+
+input::placeholder {
+  color: rgba(230, 200, 200, 0.945);
+  opacity: 0.5;
+}
+
+button {
+  padding: 10px 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #26a9e0;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+}
+
+button[type='submit']:hover,
+.btn-item[type='submit']:hover {
+  background: #85d6de;
+  cursor: pointer;
+}
+
+.invalid {
+  border-bottom: 1px solid red;
+  color: red;
+}
+
+p {
+  color: red;
+  font-size: 10px;
+  margin-top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  padding-left: 280px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#modal #modal-content {
+  background-color: #fefefe;
+  border: none;
+  width: 275px;
+  padding: 20px;
+}
+
+#modal h2 {
+  margin-bottom: 10px;
+}
+
+#modal p {
+  color: black;
+  padding-left: 10px;
+}
+
+.close,
+.close img {
+  width: 20px;
+  height: 20px;
+}
+
+.close {
+  color: #aaaaaa;
+  position: absolute;
+  background-color: white;
+  top: 15%;
+  left: 46%;
+}
+
+.close img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.close:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Task 2 */
+table {
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid black;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+}
+
+#colored tbody > tr > :nth-child(2) {
+  color: red;
+  background-color: green;
+}
