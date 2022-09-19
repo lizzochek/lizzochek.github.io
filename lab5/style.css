@@ -90,9 +90,9 @@ p {
   margin-top: 0;
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 #modal {
   position: fixed;
@@ -112,6 +112,8 @@ p {
   border: none;
   width: 275px;
   padding: 20px;
+  position: fixed;
+  left: 41%;
 }
 
 #modal h2 {
@@ -133,8 +135,9 @@ p {
   color: #aaaaaa;
   position: absolute;
   background-color: white;
-  top: 15%;
-  left: 46%;
+  position: absolute;
+  top: 6%;
+  left: 85%;
 }
 
 .close img {
