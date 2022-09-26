@@ -1,0 +1,55 @@
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#download-btn {
+  pointer-events: auto;
+  cursor: pointer;
+  background: #f1dada;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin: auto;
+  font-family: inherit;
+  font-size: inherit;
+  position: relative;
+  display: block;
+}
+
+#download-btn:hover {
+  background: #f6cdcd;
+}
+
+#download-btn.fetched {
+  background: rgb(204, 249, 136);
+}
+
+#data-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#download-btn .hidden {
+  display: none;
+}
+
+.person {
+  width: 15%;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.person img {
+  border-radius: 40px;
+}
