@@ -11,8 +11,8 @@ const getPersonTemplate = ({ picture, cell, location }) => {
         <img src="${picture?.large}" alt="portrait"></img> 
         <p>Cell: ${cell}</p>   
         <p>City: ${location?.city}</p>
-        <p>City: ${location?.country}</p>
-        <p>City: ${location?.postcode}</p>
+        <p>Country: ${location?.country}</p>
+        <p>Postcode: ${location?.postcode}</p>
     </div>
     `;
 };
