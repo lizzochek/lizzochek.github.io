@@ -157,6 +157,8 @@ table {
   margin: auto;
   margin-top: 20px;
   border-collapse: collapse;
+  margin-left: 40%;
+  margin-right: 0;
 }
 
 table td {
@@ -169,4 +171,13 @@ table td {
 #colored tbody > tr > :nth-child(2) {
   color: red;
   background-color: green;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#color-modal {
+  margin-left: 20px;
 }

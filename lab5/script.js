@@ -5,6 +5,7 @@ const form = document.querySelector('form');
 const button = document.querySelector('button');
 const inputArray = document.querySelectorAll('input');
 const modal = document.getElementById('modal-content');
+const colorPicker = document.getElementById('color-modal');
 const modalData = document.getElementById('data');
 const closeBtn = document.querySelector('.close');
 
@@ -106,8 +107,13 @@ magicCell.addEventListener('mouseover', (e) => {
   e.target.style.backgroundColor = generateRandomColor();
 });
 
+colorPicker.addEventListener('change', (e) => {
+  magicCell.style.backgroundColor = e.target.value;
+  colorPicker.setAttribute('class', 'hidden');
+})
+
 magicCell.addEventListener('click', (e) => {
-  e.target.style.backgroundColor = 'green';
+  colorPicker.setAttribute('class', '');
 });
 
 magicCell.addEventListener('dblclick', (e) => {

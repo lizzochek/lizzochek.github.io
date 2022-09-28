@@ -3,9 +3,18 @@
   <head>
     <title>Dolhova Yelyzaveta, IP-94, Lab5, Variant 2</title>
     <meta charset="UTF-8" />
-    <meta name="keywords" content="Dolhova, IP-94, Yelyzaveta" />
-    <meta name="description" content="Laboratory work 5 by Dolhova" />
-    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="keywords"
+      content="Dolhova, IP-94, Yelyzaveta"
+    />
+    <meta
+      name="description"
+      content="Laboratory work 5 by Dolhova"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
   </head>
   <body>
     <div class="main-block">
@@ -13,35 +22,69 @@
         <h2>Form validation</h2>
       </div>
       <form>
-        <input type="text" id="top" placeholder="Full name" />
+        <input
+          type="text"
+          id="top"
+          placeholder="Full name"
+        />
         <p class="hidden">Please enter full name in the format: Word L.L.</p>
-        <input type="text" placeholder="Group" />
+        <input
+          type="text"
+          placeholder="Group"
+        />
         <p class="hidden">Please enter group in the format: LL-11</p>
-        <input type="text" placeholder="Phone number" />
+        <input
+          type="text"
+          placeholder="Phone number"
+        />
         <p class="hidden">
           Please enter phone number in the format: (111)-111-11-11
         </p>
-        <input type="text" placeholder="ID card" />
+        <input
+          type="text"
+          placeholder="ID card"
+        />
         <p class="hidden">Please enter id in the format: LL №111111</p>
-        <input type="text" placeholder="Faculty" />
+        <input
+          type="text"
+          placeholder="Faculty"
+        />
         <p class="hidden">Please enter faculty in the format: LLLL</p>
         <button type="submit">Submit</button>
       </form>
 
-      <div class="hidden" id="modal">
+      <div
+        class="hidden"
+        id="modal"
+      >
         <div id="modal-content">
           <h2>Your data</h2>
           <div>
             <div id="data"></div>
             <button class="close">
-              <img src="cancel.png" alt="Close icon" />
+              <img
+                src="cancel.png"
+                alt="Close icon"
+              />
             </button>
           </div>
         </div>
       </div>
     </div>
 
-    <table></table>
+    <div id="container">
+      <table></table>
+      <div
+        class="hidden"
+        id="color-modal"
+      >
+        <input
+          type="color"
+          id="colorpicker"
+        />
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
