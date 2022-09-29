@@ -11,3 +11,9 @@
     name: 'Image',
   };
 </script>
+
+<style>
+  img {
+    width: 500px;
+  }
+</style>
